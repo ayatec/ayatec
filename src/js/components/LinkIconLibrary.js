@@ -1,6 +1,9 @@
 
 // React
 import React from 'react';
+import styled from 'styled-components';
+
+// App
 import LinkIcon from './LinkIcon';
 
 // Image
@@ -11,7 +14,7 @@ import GithubImage from '../../images/github.png';
 class LinkIconLibrary extends React.Component {
   render() {
     return (
-      <div id="link-icon-library">
+      <Style>
         <LinkIcon
           link="/"
           name="ayatec"
@@ -24,12 +27,17 @@ class LinkIconLibrary extends React.Component {
         />
         <LinkIcon
           link="https://github.com/ayatec"
-          name="github"
+          name="GitHub"
           image={GithubImage}
         />
-      </div>
+      </Style>
     );
   }
 }
+
+const Style = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
 
 export default LinkIconLibrary;
