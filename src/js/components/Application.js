@@ -36,7 +36,7 @@ const Style = styled.div`
 `;
 
 const Header = styled.header`
-  margin: 1rem;
+  margin: 2rem;
   text-align: left;
 `;
 
@@ -49,14 +49,14 @@ const HeaderTitle = styled.span`
 `;
 
 const Main = styled.main`
-  margin: 0 1rem;
+  margin: 0 2rem;
   background: #fff;
   border-right: .05rem solid #1e3c78;
   border-left: .05rem solid #1e3c78;
 `;
 
 const Footer = styled.footer`
-  margin: 1rem;
+  margin: 2rem;
   text-align: right;
 `;
 
