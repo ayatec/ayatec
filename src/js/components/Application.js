@@ -36,12 +36,12 @@ const Style = styled.div`
 `;
 
 const Header = styled.header`
-  margin: 2rem;
+  margin: 1rem;
   text-align: left;
 `;
 
 const HeaderImg = styled.img`
-  width: 128px;
+  width: 170.5px;
 `;
 
 const HeaderTitle = styled.span`
@@ -49,14 +49,14 @@ const HeaderTitle = styled.span`
 `;
 
 const Main = styled.main`
-  margin: 0 2rem;
+  margin: 0 1rem;
   background: #fff;
   border-right: .05rem solid #1e3c78;
   border-left: .05rem solid #1e3c78;
 `;
 
 const Footer = styled.footer`
-  margin: 2rem;
+  margin: 1rem;
   text-align: right;
 `;
 
