@@ -67,7 +67,7 @@ const FooterLink = styled.a`
   text-decoration: none;
   &:link, &:visited {
     color: #F7F9FD;
-    text-shadow: 1px 0 0 #1e3c78, -1px 0 0 #1e3c78, 0 1px 0 #1e3c78, 0 -1px 0 #1e3c78;
+    text-shadow: 1px 0 0 #1e3c78, -1px 0 0 #1e3c78, 0 2px 0 #1e3c78, 0 -1px 0 #1e3c78;
   }
 
   transition: all .2s 0s ease;
