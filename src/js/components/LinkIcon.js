@@ -14,6 +14,13 @@ const LinkIcon = ({ link, name, image }) => {
   );
 };
 
+const Link = styled.a`
+  text-decoration: none;
+  &:link, &:visited {
+    color: #1e3c78;
+  }
+`;
+
 const Style = styled.div`
   margin: 1rem;
   width: 106.5px;
@@ -25,19 +32,16 @@ const Style = styled.div`
   &:hover {
     -webkit-transform: scale(1.05);
     border-bottom: .5rem solid #1e3c78;
+    ${Link} {
+      color: #F7F9FD;
+      text-shadow: 1px 0 0 #1e3c78, -1px 0 0 #1e3c78, 0 2px 0 #1e3c78, 0 -1px 0 #1e3c78;
+    }
   }
 
   @media only screen and (max-width: 545px) {
     width: 36%;
     margin: 1rem 3.5%;
     padding: 1rem 3.5%;
-  }
-`;
-
-const Link = styled.a`
-  text-decoration: none;
-  &:link, &:visited {
-    color: #1e3c78;
   }
 `;
 
